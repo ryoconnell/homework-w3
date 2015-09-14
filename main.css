@@ -54,9 +54,11 @@ section {
 }
 
 section p {
-  margin-left: 325px;
+  text-align: center;
+  vertical-align: middle;
+  /* margin-left: 325px;
   margin-right: 325px;
-  margin-top: 50px;
+  margin-top: 50px; */
 }
 
 div {
