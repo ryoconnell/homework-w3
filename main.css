@@ -1,6 +1,10 @@
 body {
-  text-indent: 50px;
 
+
+}
+
+h1 {
+  text-indent: 50px;
 }
 
 header {
@@ -26,4 +30,60 @@ h3 {
   margin-top: 100px;
   font-size: 30px;
   color: #0000FF;
+}
+
+main > p {
+  text-indent: 0px;
+  margin-right: 400px;
+  margin-left: 100px;
+}
+
+ul {
+  text-indent: 0px;
+  margin-right: 500px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section {
+  background-image: url("images/testimonial.png");
+  height: 400px;
+  text-align: center;
+  color: white;
+}
+
+section p {
+  margin-left: 325px;
+  margin-right: 325px;
+  margin-top: 50px;
+}
+
+div {
+  background-color: yellow;
+  height: 60px;
+}
+div > button {
+  color: white;
+  background-color: #000066;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+}
+
+footer > h1 {
+  color: yellow;
+  text-align: center;
+}
+
+nav{
+  color: white;
+  text-align: center;
+}
+
+footer > p {
+  color: white;
+  text-align: center;
 }
